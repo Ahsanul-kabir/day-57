@@ -1,12 +1,4 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useRouteMatch,
-    useParams
-  } from "react-router-dom";
 
 const Friend = (props) => {
     const { name, email} = props.friend;
